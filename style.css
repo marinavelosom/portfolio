@@ -83,7 +83,9 @@ body::-webkit-scrollbar-corner{
     flex-direction: row;
     justify-content: space-evenly;
 }
-.cantinho1, .cantinho2, .cantinho3, .cantinho4, .cantinho5{
+.cantinho1, .cantinho2, .cantinho3,
+.cantinho4, .cantinho5, .cantinho6, 
+.cantinho7, .cantinho8, .cantinho9{
     width: 300px;
     height: 400px;
     background-repeat: no-repeat;
@@ -100,6 +102,15 @@ body::-webkit-scrollbar-corner{
 }
 .cantinho2{
     background-image: url(./img/colagem4.jpeg);
+}
+.cantinho3{
+    background-image: url(./img/vista1.jpeg);
+}
+.cantinho4{
+    background-image: url(./img/olinda.jpeg);
+}
+.cantinho5{
+    background-image: url(./img/vista3.jpeg)
 }
 .cantinho1:hover{
     background-image: url(./img/colagem1.jpeg);
