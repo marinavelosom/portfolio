@@ -32,21 +32,27 @@ body::-webkit-scrollbar-corner{
     height: 180px;
     border-radius: 50%;
     background: none;
+    margin-top: 5px;
 }
 .name, .info{
     display: flex;
     flex-direction: row;
     background: none;
+    
 }
 .name h2{
     width: 20px;
     height: 20px;
     text-align: center;
-    /* align-items: center; */
     border: 1px black solid;
     border-radius: 50%;
     background: none;
-    padding: 2px;
+    /* padding: 2px; */
+    padding-bottom: 3px;
+}
+.info{
+    /* align-items: center; */
+    margin-left: 10px;
 }
 .name h1, .card h4{
     background: none;
@@ -74,6 +80,7 @@ body::-webkit-scrollbar-corner{
 .info:hover .mais{
     display: flex;
 }
+
 .container img, .vistinha img, .vistinha1 img{
     width: 100vw;
     position: relative;
